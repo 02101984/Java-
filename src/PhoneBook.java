@@ -18,14 +18,6 @@ public class PhoneBook {
         phone2name.put(telNum, lastName);
     }
 
-//    public String getByTelNum(String telNum) {
-//        return phone2name.get(telNum);
-//    }
-//
-//    public TreeSet<String> getByLastName(String lastName) {
-//        return name2phone.get(lastName);
-//    }
-
     private int getMaxNumberOfPersonalPhones() {
         int maxNum = 0;
         for (var entry : name2phone.entrySet()) {
